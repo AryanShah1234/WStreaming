@@ -1,0 +1,236 @@
+ <!-- <div class="header">
+    <div class="header__left">
+      <i id="menu" class="material-icons">menu</i>
+      <img src="images\sitelogo-modified.png" alt="wstreaming" width="30" height="30">
+      <h1 class="sitename">WStreaming</h1>
+    </div>
+
+    <div class="header__search">
+      <form action="index.html" method="post">
+        <input type="text" placeholder="Search" />
+        <button><i class="material-icons">search</i></button>
+      </form>
+    </div>
+
+    <div class="header__icons">
+      <i class="material-icons">videocam</i>
+      <i class="material-icons">apps</i>
+      <i class="material-icons">notifications</i>
+    </div>
+  </div>
+  <div class="clearFloat"></div>
+  <div class="part">
+    <h1><a href="#">Stream Title</a></h1>
+    <div class="player">
+      <div class="video"><img class="video" src="images\WhatsApp Image 2022-08-22 at 11.45.13 AM.jpeg" alt="#"></div>
+      <div class="share">
+        <div class="title">Share this</div>
+        <ul>
+          <li><a href="#"><span class="icon like"><i class="fa-solid fa-thumbs-up"></i></span> Like</a></li>
+          <li><a href="#"><span class="icon fb"><i class="fa-solid fa-share-nodes"></i></span> Share</a></li>
+          <li><a href="#"><span class="icon twitter"><i class="fa-brands fa-twitter"></i></span> Tweet</a></li>
+          <li><a href="#comment"><span class="icon comments"><i class="fa-solid fa-comment"></i></span> comment</a></li>
+          <li><span class="icon views"><i class="fa-solid fa-eye"></i></span> 200 Views</li>
+        </ul>
+      </div>
+      <div class="clearFloat"></div>
+      <div class="desc">
+        <h1>Description</h1>
+        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque habitant morbi tristique senectus et
+          netus et malesuada fames ac turpis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+      </div>
+      <div class="clearFloat"></div>
+    </div>
+    <h2>Related Videos</h2>
+    <div class="grid">
+      <div class="preview">
+        <a href="#" title=""><img src="images\137103.png" alt="#"></a>
+        <div class="time">00.00</div>
+      </div>
+      <div class="data">
+        <h3><a href="#">Lorem Ipsum Dolor Sit amet</a></h3>
+        <div class="category"><span class="icon"></span> <a href="#">Tag name</a>, <a href="#">Tag</a></div>
+      </div>
+    </div>
+    <div class="grid">
+      <div class="preview">
+        <a href="#" title=""><img src="images\1007788.jpg" alt="#"></a>
+        <div class="time">00.00</div>
+      </div>
+      <div class="data">
+        <h3><a href="#">Lorem Ipsum Dolor Sit amet</a></h3>
+        <div class="category"><span class="icon"></span> <a href="#">Tag name</a>, <a href="#">Tag</a></div>
+      </div>
+    </div>
+    <div class="grid">
+      <div class="preview">
+        <a href="#" title=""><img src="images\WhatsApp Image 2020-12-01 at 11.51.30 AM.jpeg" alt="#"></a>
+        <div class="time">00.00</div>
+      </div>
+      <div class="data">
+        <h3><a href="#">Lorem Ipsum Dolor Sit amet</a></h3>
+        <div class="category"><span class="icon"></span> <a href="#">Tag name</a>, <a href="#">Tag</a></div>
+      </div>
+    </div>
+    <div class="grid">
+      <div class="preview">
+        <a href="#" title=""><img src="images\wp7717438-4k-pc-car-neon-wallpapers.jpg" alt="#"></a>
+        <div class="time">00.00</div>
+      </div>
+      <div class="data">
+        <h3><a href="#">Lorem Ipsum Dolor Sit amet</a></h3>
+        <div class="category"><span class="icon"></span> <a href="#">Tag name</a>, <a href="#">Tag</a></div>
+      </div>
+    </div>
+    <div class="grid">
+      <div class="preview">
+        <a href="#" title=""><img src="images\wp9124132-4k-pc-car-neon-wallpapers.jpg" alt="#"></a>
+        <div class="time">00.00</div>
+      </div>
+      <div class="data">
+        <h3><a href="#">Lorem Ipsum Dolor Sit amet</a></h3>
+        <div class="category"><span class="icon"></span> <a href="#">Tag name</a>, <a href="#">Tag</a></div>
+      </div>
+    </div>
+    <div class="clearFloat"></div>
+    <div class="grid">
+      <div class="preview">
+        <a href="#" title=""><img src="images\137103.png" alt="#"></a>
+        <div class="time">00.00</div>
+      </div>
+      <div class="data">
+        <h3><a href="#">Lorem Ipsum Dolor Sit amet</a></h3>
+        <div class="category"><span class="icon"></span> <a href="#">Tag name</a>, <a href="#">Tag</a></div>
+      </div>
+    </div>
+    <div class="grid">
+      <div class="preview">
+        <a href="#" title=""><img src="images\1007788.jpg" alt="#"></a>
+        <div class="time">00.00</div>
+      </div>
+      <div class="data">
+        <h3><a href="#">Lorem Ipsum Dolor Sit amet</a></h3>
+        <div class="category"><span class="icon"></span> <a href="#">Tag name</a>, <a href="#">Tag</a></div>
+      </div>
+    </div>
+    <div class="grid">
+      <div class="preview">
+        <a href="#" title=""><img src="images\WhatsApp Image 2020-12-01 at 11.51.30 AM.jpeg" alt="#"></a>
+        <div class="time">00.00</div>
+      </div>
+      <div class="data">
+        <h3><a href="#">Lorem Ipsum Dolor Sit amet</a></h3>
+        <div class="category"><span class="icon"></span> <a href="#">Tag name</a>, <a href="#">Tag</a></div>
+      </div>
+    </div>
+    <div class="grid">
+      <div class="preview">
+        <a href="#" title=""><img src="images\wp7717438-4k-pc-car-neon-wallpapers.jpg" alt="#"></a>
+        <div class="time">00.00</div>
+      </div>
+      <div class="data">
+        <h3><a href="#">Lorem Ipsum Dolor Sit amet</a></h3>
+        <div class="category"><span class="icon"></span> <a href="#">Tag name</a>, <a href="#">Tag</a></div>
+      </div>
+    </div>
+    <div class="grid">
+      <div class="preview">
+        <a href="#" title=""><img src="images\wp9124132-4k-pc-car-neon-wallpapers.jpg" alt="#"></a>
+        <div class="time">00.00</div>
+      </div>
+      <div class="data">
+
+
+        <h3><a href="#">Lorem Ipsum Dolor Sit amet</a></h3>
+        <div class="category"><span class="icon"></span> <a href="#">Tag name</a>, <a href="#">Tag</a></div>
+      </div>
+    </div>
+    <div class="clearFloat"></div>
+    <div class="form comment">
+      <h2>0 Comment's</h2>
+      <ul class="list">
+        <li>
+          <div class="preview"><a href="#"><img src="images/img1.jpg" alt="" /></a></div>
+          <div class="data">
+            <div class="title">Aryan <span>on 20 Aug 2022</span></div>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.Pellentesque habitant morbi tristique senectus et
+              netus et malesuada fames ac turpis egestas.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.Pellentesque habitant morbi tristique senectus et
+              netus et malesuada fames ac turpis egestas.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+          </div>
+          <div class="clearFloat"></div>
+        </li>
+        <li>
+          <div class="preview"><a href="#"><img src="images/img1.jpg" alt="" /></a></div>
+          <div class="data">
+            <div class="title">Aryan <span>on 20 Aug 2022</span></div>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+          </div>
+          <div class="clearFloat"></div>
+        </li>
+        <li>
+          <div class="preview"><a href="#"><img src="images/img1.jpg" alt="" /></a></div>
+          <div class="data">
+            <div class="title">Aryan <span>on 20 Aug 2022</span></div>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+          </div>
+          <div class="clearFloat"></div>
+        </li>
+        <li>
+          <div class="preview"><a href="#"><img src="images/img1.jpg" alt="" /></a></div>
+          <div class="data">
+            <div class="title">Aryan <span>on 20 Aug 2022</span></div>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+          </div>
+          <div class="clearFloat"></div>
+        </li>
+        <li>
+          <div class="preview"><a href="#"><img src="images/img1.jpg" alt="" /></a></div>
+          <div class="data">
+            <div class="title">Aryan <span>on 20 Aug 2022</span></div>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+          </div>
+          <div class="clearFloat"></div>
+        </li>
+      </ul>
+      <h2><a href="#" name="comment">Leave a Comment</a></h2>
+      <form class="cmxform" id="contactForm" method="post" action="?">
+        <div>
+          <span><input type="text" id="name" name="name" value="Name" /></span>
+        </div>
+        <div>
+          <span><input type="text" id="email" name="email" value="Email" /></span>
+        </div>
+        <div>
+          <span><textarea id="subject" name="Subject">Comment</textarea></span>
+        </div>
+        <div>
+          <span><input class="submit" type="submit" value="Submit" /></span>
+        </div>
+      </form>
+      <div class="guide">
+        <h3>Do's</h3>
+        <ul>
+          <li>Feel free to leave a comment</li>
+          <li>Express yourself</li>
+          <li>Be creative</li>
+        </ul>
+        <h3>Dont's</h3>
+        <ul>
+          <li>spam</li>
+          <li>insult other commenters</li>
+        </ul>
+      </div>
+      <div class="clearFloat"></div>
+    </div>
+  </div>
+  <div class="txt-center margin-top-18">
+    <a href="#"><img src="images/ad_728x90.png" alt=""></a>
+  </div>
+  <div class="clearFloat"></div>
+  <footer>
+    <div class="copy">
+      <p>&copy; Aryan</p>
+    </div>
+  </footer>
+  <div class="clearFloat"></div> -->

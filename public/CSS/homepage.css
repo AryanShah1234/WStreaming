@@ -1,0 +1,585 @@
+body {
+  color: white;
+  background-image: url("https://img.freepik.com/free-photo/black-concrete-wall_24972-1046.jpg?w=996&t=st=1663150007~exp=1663150607~hmac=f849ed316e41a8e7566e34d0ae75c454d84b85ed7b2ee28437069d85df8fd24f");
+}
+
+.mainbox {
+  border-radius: 25px;
+  margin: 20px 40px;
+  background-color: 2C3333;
+  height: 95vh;
+  display: flex;
+}
+
+.sidebar {
+  position: sticky;
+  flex: 15%;
+  background-color: #2C3333;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  /* border: 1px solid; */
+  border-right: 0.5px solid #FEF5ED;
+  padding: 15px;
+}
+
+.logo {
+  position: absolute;
+}
+
+.title {
+  display: inline-block;
+  position: relative;
+  padding-left: 60px;
+  font-family: 'Oswald', sans-serif;
+  margin-top: 10px;
+}
+
+hr {
+  position: relative;
+  color: white;
+}
+
+.info {
+  padding-left: 10px;
+  height: 32px;
+  margin-bottom: 2px;
+  padding-top: 5px;
+}
+
+.channels {
+  padding-left: 10px;
+  height: 32px;
+  margin-bottom: 2px;
+}
+
+.header {
+  font-family: 'Abel', sans-serif;
+}
+
+.sideicons {
+  position: absolute;
+}
+
+.topic {
+  position: relative;
+  padding-left: 50px;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding-top: 1px;
+}
+
+.content {
+  background-color: #2C3333;
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
+  flex: 85%;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid ; */
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: 3px;
+}
+
+
+.avatar2{
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-left: 20px;
+  border-style: solid;
+}
+
+.streamername {
+  padding-left: 50px;
+  font-family: 'Roboto Condensed', sans-serif;
+  position: relative;
+  padding-top: 7px;
+}
+
+.loadmore {
+  height: 32px;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+
+.not-live-dot {
+  position: relative;
+  height: 8px;
+  width: 8px;
+  border-radius: 4px;
+  background-color: #e21212;
+  float: right;
+  margin-top: 7px;
+  margin-right: 20px;
+}
+
+.live-dot {
+  position: relative;
+  height: 8px;
+  width: 8px;
+  border-radius: 4px;
+  background-color: lawngreen;
+  float: right;
+  margin-top: 7px;
+  margin-right: 20px;
+}
+
+.copyright {
+  text-align: center;
+}
+
+.info:hover,
+.channels:hover {
+  background-color: #BC6FF1;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  cursor: pointer;
+}
+
+.loadmore:hover {
+  background-color: #BC6FF1;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.searchicon {
+  color: #BC6FF1;
+  position: relative;
+  margin-top: 4px;
+}
+
+.searchicon:hover {
+  color: white;
+}
+
+#searchform {
+  margin: 0px auto;
+}
+
+.navbar {
+  justify-content: space-evenly;
+  border-top-right-radius: 25px;
+  margin-bottom: 0px;
+}
+
+#navbarDropdown {
+  padding-top: 17px;
+  color: white;
+}
+
+#navbarDropdown:hover {
+  text-decoration: none;
+}
+
+.dropdown-menu {
+  border-radius: 15px;
+  background-color: #2C3333;
+}
+
+.dropdown-item {
+  color: white;
+}
+
+.dropdown-item:hover {
+  background-color: #BC6FF1;
+  color: white;
+  text-decoration: none;
+
+}
+
+.dropdown-divider {
+  border-color: white;
+  margin: 0 10px;
+}
+
+.searchbar {
+  display: inline-block;
+  margin-left: 15vw;
+  position: relative;
+  margin-top: 2px;
+}
+
+#searcharea {
+  background-color: #2C3333;
+  border: none;
+  color: white;
+}
+
+#searcharea:focus {
+  background-color: black;
+  color: white;
+  border: 2px solid #BC6FF1;
+}
+
+#searchbutton:hover {
+  background-color: #BC6FF1;
+  color: white;
+}
+
+.loginbutton {
+  float: right;
+  margin: 10px;
+  position: relative;
+}
+.welcome{
+  float: right;
+  margin-right: 100px;
+  margin-top: 15px;
+  position: relative;
+  padding-right: 20px;
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #BC6FF1 0%,
+    white 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 19px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+
+}
+
+.signup {
+  margin-right: 20px;
+  border-radius: 15px;
+  height: 35px;
+  width: 75px;
+  background-color: #2C3333;
+  color: white;
+  border: none;
+}
+
+.login {
+  border-radius: 15px;
+  height: 35px;
+  width: 75px;
+  background-color: #BC6FF1;
+  color: white;
+  border: none;
+}
+
+.signup:hover {
+  background-color: white;
+  color: #2C3333;
+  font-weight: bold;
+
+}
+
+.login:hover {
+  background-color: white;
+  color: #BC6FF1;
+  font-weight: bold;
+}
+
+#myCarousel {
+  height: 35%;
+  width: 50%;
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 15px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.carousel-inner {
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.cards {
+  height: fit-content;
+  max-height: 250px;
+  width: 100%;
+}
+
+.carousel-caption {
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 100px 0 0 0;
+}
+
+.carousel-control {
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.carousel-indicators .active {
+  background-color: #BC6FF1;
+  border-color: black;
+}
+
+.manage {
+  margin-top: 15px;
+  margin-right: 15px;
+  position: relative;
+  width: 34%;
+  height: 37%;
+  float: right;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+iframe {
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.games {
+  position: absolute;
+  display: inline-block;
+  margin-top: 280px;
+  margin-left: 15px;
+  height: 310px;
+  width: 1192px;
+  overflow-y: scroll;
+  /* border: 1px solid white; */
+  overflow-x: hidden;
+  text-align: center;
+}
+
+.deconstructed {
+  position: relative;
+  margin: auto;
+  color: transparent;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.03em;
+}
+
+.deconstructed>div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: #BC6FF1;
+  pointer-events: none;
+}
+
+.deconstructed>div:nth-child(1) {
+  -webkit-mask-image: linear-gradient(black 25%, transparent 25%);
+  mask-image: linear-gradient(black 25%, transparent 25%);
+  animation: deconstructed1 5s infinite;
+}
+
+.deconstructed>div:nth-child(2) {
+  -webkit-mask-image: linear-gradient(transparent 25%, black 25%, black 50%, transparent 50%);
+  mask-image: linear-gradient(transparent 25%, black 25%, black 50%, transparent 50%);
+  animation: deconstructed2 5s infinite;
+}
+
+.deconstructed>div:nth-child(3) {
+  -webkit-mask-image: linear-gradient(transparent 50%, black 50%, black 75%, transparent 75%);
+  mask-image: linear-gradient(transparent 50%, black 50%, black 75%, transparent 75%);
+  animation: deconstructed3 5s infinite;
+}
+
+.deconstructed>div:nth-child(4) {
+  -webkit-mask-image: linear-gradient(transparent 75%, black 75%);
+  mask-image: linear-gradient(transparent 75%, black 75%);
+  animation: deconstructed4 5s infinite;
+}
+
+@keyframes deconstructed1 {
+  0% {
+    transform: translateX(100%);
+  }
+
+  26% {
+    transform: translateX(0%);
+  }
+
+  83% {
+    transform: translateX(-0.1%);
+  }
+
+  100% {
+    transform: translateX(-120%);
+  }
+}
+
+@keyframes deconstructed2 {
+  0% {
+    transform: translateX(100%);
+  }
+
+  24% {
+    transform: translateX(0.5%);
+  }
+
+  82% {
+    transform: translateX(-0.2%);
+  }
+
+  100% {
+    transform: translateX(-125%);
+  }
+}
+
+@keyframes deconstructed3 {
+  0% {
+    transform: translateX(100%);
+  }
+
+  22% {
+    transform: translateX(0%);
+  }
+
+  81% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-130%);
+  }
+}
+
+@keyframes deconstructed4 {
+  0% {
+    transform: translateX(100%);
+  }
+
+  20% {
+    transform: translateX(0%);
+  }
+
+  80% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-135%);
+  }
+}
+
+.gamenames {
+  margin: 20px 15px 0;
+  width: 250px;
+  display: inline-block;
+  background-color: #2C3333;
+  border-radius: 15px;
+
+}
+
+.gamedp{
+  width: 100%;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  margin: 0px;
+  padding: 0px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.gamedp:hover{ 
+  translate: 7px -7px;
+  border-left: 7px solid #BC6FF1;
+  border-bottom: 7px solid #BC6FF1;
+  cursor: pointer;
+}
+.gamename{
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding-top: 10px;
+  font-size: 2rem;
+}
+.viewcount{
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding-top: 5px;
+  font-size: 1.5rem;
+  padding-bottom: 5px;
+}
+.gamename:hover, .viewcount:hover{
+  color: #BC6FF1;
+  font-weight: bold;
+  cursor: pointer;
+}
+.category:hover{
+  background-color: #515c5c;
+  cursor: pointer;
+}
+
+.category{
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  background-color: #212529;
+}
+.games::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+.games::-webkit-scrollbar-track {
+  background: #2C3333;        /* color of the tracking area */
+}
+
+.games::-webkit-scrollbar-thumb {
+  background-color: #212529;
+  border-radius: 20px;
+ border: 3px solid #212529;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  text-decoration: none;
+  color: white;
+}

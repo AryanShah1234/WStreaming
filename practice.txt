@@ -1,0 +1,20 @@
+db.customers.insert(
+    {
+        name: "Utkarsh",
+        age: 19,
+        place: "Ranchi",
+        comments: [
+            {
+                time: "1150pm",
+                likes: 50,
+                dislikes: 90
+            },
+            {
+                
+                time: "1250pm",
+                likes: 150,
+                dislikes: 9
+            }
+        ]
+    }
+)

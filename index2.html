@@ -1,0 +1,381 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+  <title>Streaming page</title>
+  <!-- js -->
+  <script defer src="count.js"></script>
+  <!--bootstrap cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+    integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <!-- CSS File -->
+  <link rel="stylesheet" type="text/css" href="CSS/style.css">
+  <!-- fontawesome cdn -->
+  <script src="https://kit.fontawesome.com/9ace50c2e3.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <!--fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Abel&family=Caveat&family=Oswald&family=Roboto+Condensed&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="mainbox">
+    <!-- sidebar -->
+    <div class="sidebar">
+      <img class="logo" src="images\sitelogo-modified.png" alt="site logo" width="50px" height="50px">
+      <h2 class="title">WStream</h2>
+      <hr>
+      <div class="news">
+        <b>
+          <p class="header">News Feed</p>
+        </b>
+        <a href="https://www.twitch.tv/directory">
+          <div class="info">
+            <span class="material-symbols-outlined sideicons">feed</span>
+            <p class="topic">News</p>
+          </div>
+        </a>
+        <a href="https://www.twitch.tv/directory">
+          <div class="info">
+            <span class="material-symbols-outlined sideicons">trending_up</span>
+            <p class="topic">Trending</p>
+          </div>
+        </a>
+        <a href="https://www.twitch.tv/directory">
+          <div class="info">
+            <span class="material-symbols-outlined sideicons">videocam</span>
+            <p class="topic">Your Videos</p>
+          </div>
+        </a>
+        <a href="https://www.twitch.tv/directory">
+          <div class="info">
+            <span class="material-symbols-outlined sideicons">featured_play_list</span>
+            <p class="topic">Playlist</p>
+          </div>
+        </a>
+      </div>
+      <hr>
+      <div class="following">
+        <b>
+          <p class="header">Following</p>
+        </b>
+        <a href="index.html" style="text-align: none;">
+          <div class="channels">
+            <img src="images\profilepic1.jpg" alt="pp1" class="avatar">
+            <p class="streamername">Tenz<span class="not-live-dot"></span></p>
+          </div>
+        </a>
+        <a href="index2.html" style="text-align: none;">
+          <div class="channels">
+            <img src="images\profilepic2.jpg" alt="pp2" class="avatar">
+            <p class="streamername">sOMCS<span class="live-dot"></span></p>
+          </div>
+        </a>
+        <a href="index3.html" style="text-align: none;">
+          <div class="channels">
+            <img src="images\profilepic3.jpg" alt="pp3" class="avatar">
+            <p class="streamername">Tarik<span class="live-dot"></span></p>
+          </div>
+        </a>
+        <a href="index4.html" style="text-align: none;">
+          <div class="channels">
+            <img src="images\profilepic4.jpg" alt="pp4" class="avatar">
+            <p class="streamername">Valkyrae<span class="not-live-dot"></span></p>
+          </div>
+        </a>
+        <a href="index5.html" style="text-align: none;">
+          <div class="channels">
+            <img src="images\profilepic5.jpg" alt="pp5" class="avatar">
+            <p class="streamername">kaite_won<span class="live-dot"></span></p>
+          </div>
+        </a>
+        <div class="loadmore">
+          <span class="material-symbols-outlined sideicons" id="expand">expand_more</span>
+          <p class="topic">Load More</p>
+        </div>
+      </div>
+      <hr>
+      <div class="copyright">
+        &#169; GVerse 2022 <br><br>
+        All Rights Reserved
+      </div>
+    </div>
+    <!--sidebar -->
+
+    <!--Content -->
+    <div class="content">
+
+      <!--navbar-->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="homepage.html"><span class="material-symbols-outlined">browse_activity</span></a>
+        <a class="navbar-brand" href="#"><span>Browse</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Discover
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Games</a>
+                <a class="dropdown-item" href="#">Chatting</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="about.html">About</a>
+              </div>
+            </li>
+          </ul>
+          <div class="searchbar">
+            <form class="form-inline my-2 my-lg-0" id="searchform">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"
+                id="searcharea">
+              <button class="btn btn-outline-success my-2 my-sm-0 searchbutton" type="submit" id="searchbutton"><span
+                  class="material-symbols-outlined searchicon">search</span></button>
+            </form>
+          </div>
+          <div class="welcome">
+            Welcome
+            <img src="images/user.png" alt="pp2" class="avatar2">
+            <!-- <a href="signup.html">
+  <button class="signup">
+    Signup
+  </button></a>
+<a href="login.html">
+  <button class="login">
+    Login
+  </button>
+</a> -->
+          </div>
+        </div>
+      </nav>
+      <!--navbar End-->
+      <!--Video-->
+      <div class="box">
+        <div class="player">
+          <div class="video"><iframe class="svideo" src="https://www.youtube.com/embed/AXkD4t2MBe0"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+          <div class="share">
+            <ul class="sharelist">
+              <li class="sharelistitems"><span class="icon like"><i class="fa-solid fa-thumbs-up fa-2xl"></i></span>
+                <span class="itemvalue">Like</span>
+              </li>
+              <li class="sharelistitems"><span class="icon fb"><i class="fa-solid fa-share-nodes fa-2xl"></i></span>
+                <span class="itemvalue">Share</span>
+              </li>
+              <li class="sharelistitems "><span class="icon twitter"><i class="fa-brands fa-twitter fa-2xl"></i></span>
+                <span class="itemvalue">Tweet</span>
+              </li>
+              <li class="sharelistitems"><span class="icon comments"><i class="fa-solid fa-comment fa-2xl"></i></span>
+                <span class="itemvalue">Comment</span>
+              </li>
+              <li class="sharelistitems"><span class="icon views"><i class="fa-solid fa-eye fa-2xl"></i></span> <span
+                  class="itemvalue">200 Views</span></li>
+            </ul>
+          </div>
+          <img src="images\profilepic2.jpg" alt="pp1" class="pp">
+          <div class="sname">sOMCS</div>
+          <div class="desc">
+            <p class="head">Description</p>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+              Pellentesque
+              habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque habitant
+              morbi
+              tristique senectus et
+              netus et malesuada fames ac turpis egestas. Pellentesque habitant morbi tristique senectus et netus et
+              malesuada fames ac turpis egestas.
+              Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+              Pellentesque</p>
+          </div>
+          <div class="comment">
+            <p class="head">Leave a Comment</p>
+            <form class="cmxform" id="contactForm" method="post" action="/index2.html">
+              <div>
+                <span><input type="text" id="name" name="name" placeholder="Name" /></span>
+              </div>
+              <div>
+                <span><input type="text" id="email" name="email" placeholder="Email" /></span>
+              </div>
+              <div>
+                <span><textarea id="subject" name="subject" placeholder="Comment"></textarea></span>
+              </div>
+              <div>
+                <span><input class="submit" type="submit" value="Submit" /></span>
+              </div>
+            </form>
+          </div>
+          <div class="commentsection">
+            <p class="head">Comments</p>
+            <ul class="list">
+              <li>
+                <div class="data">
+                  <img src="images\profilepic1.jpg" alt="pp1" class="avatar">
+                  <div class="title">Aryan <span>on 20 Aug 2022</span></div>
+                  <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
+                    egestas.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
+                    egestas.Pellentesque habitant morbi tristique senectus et
+                    netus et malesuada fames ac turpis egestas.Pellentesque habitant morbi tristique senectus et netus
+                    et malesuada fames ac turpis egestas.Pellentesque habitant morbi tristique senectus et netus et
+                    malesuada fames ac turpis egestas.</p>
+                </div>
+              </li>
+              <li>
+                <div class="data">
+                  <img src="images\profilepic1.jpg" alt="pp1" class="avatar">
+                  <div class="title">Aryan <span>on 20 Aug 2022</span></div>
+                  <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                </div>
+              </li>
+              <li>
+                <div class="data">
+                  <img src="images\profilepic1.jpg" alt="pp1" class="avatar">
+                  <div class="title">Aryan <span>on 20 Aug 2022</span></div>
+                  <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                </div>
+              </li>
+              <li>
+                <div class="data">
+                  <img src="images\profilepic1.jpg" alt="pp1" class="avatar">
+                  <div class="title">Aryan <span>on 20 Aug 2022</span></div>
+                  <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                </div>
+              </li>
+              <li>
+                <div class="data">
+                  <img src="images\profilepic1.jpg" alt="pp1" class="avatar">
+                  <div class="title">Aryan <span>on 20 Aug 2022</span></div>
+                  <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="suggested">
+          <h3 style="	font-family: 'Roboto Condensed', sans-serif;">Related Videos</h3>
+          <div class="grid">
+            <div class="preview">
+              <a href="#" title=""><img width="150" src="images\137103.png" alt="#"></a>
+              <div class="time">00.00</div>
+            </div>
+            <div class="data">
+              <h3><a href="#">Lorem Ipsum Dolor Sit amet</a></h3>
+              <h4><a href="#">Streamer Name</a></h4>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="preview">
+              <a href="#" title=""><img src="images\1007788.jpg" alt="#"></a>
+              <div class="time">00.00</div>
+            </div>
+            <div class="data">
+              <h3><a href="#">Lorem Ipsum Dolor Sit amet</a></h3>
+              <h4><a href="#">Streamer Name</a></h4>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="preview">
+              <a href="#" title=""><img src="images\WhatsApp Image 2020-12-01 at 11.51.30 AM.jpeg" alt="#"></a>
+              <div class="time">00.00</div>
+            </div>
+            <div class="data">
+              <h3><a href="#">Lorem Ipsum Dolor Sit amet</a></h3>
+              <h4><a href="#">Streamer Name</a></h4>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="preview">
+              <a href="#" title=""><img src="images\wp7717438-4k-pc-car-neon-wallpapers.jpg" alt="#"></a>
+              <div class="time">00.00</div>
+            </div>
+            <div class="data">
+              <h3><a href="#">Lorem Ipsum Dolor Sit amet</a></h3>
+              <h4><a href="#">Streamer Name</a></h4>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="preview">
+              <a href="#" title=""><img src="images\wp9124132-4k-pc-car-neon-wallpapers.jpg" alt="#"></a>
+              <div class="time">00.00</div>
+            </div>
+            <div class="data">
+              <h3><a href="#">Lorem Ipsum Dolor Sit amet</a></h3>
+              <h4><a href="#">Streamer Name</a></h4>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="preview">
+              <a href="#" title=""><img src="images\137103.png" alt="#"></a>
+              <div class="time">00.00</div>
+            </div>
+            <div class="data">
+              <h3><a href="#">Lorem Ipsum Dolor Sit amet</a></h3>
+              <h4><a href="#">Streamer Name</a></h4>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="preview">
+              <a href="#" title=""><img src="images\1007788.jpg" alt="#"></a>
+              <div class="time">00.00</div>
+            </div>
+            <div class="data">
+              <h3><a href="#">Lorem Ipsum Dolor Sit amet</a></h3>
+              <h4><a href="#">Streamer Name</a></h4>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="preview">
+              <a href="#" title=""><img src="images\WhatsApp Image 2020-12-01 at 11.51.30 AM.jpeg" alt="#"></a>
+              <div class="time">00.00</div>
+            </div>
+            <div class="data">
+              <h3><a href="#">Lorem Ipsum Dolor Sit amet</a></h3>
+              <h4><a href="#">Streamer Name</a></h4>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="preview">
+              <a href="#" title=""><img src="images\wp7717438-4k-pc-car-neon-wallpapers.jpg" alt="#"></a>
+              <div class="time">00.00</div>
+            </div>
+            <div class="data">
+              <h3><a href="#">Lorem Ipsum Dolor Sit amet</a></h3>
+              <h4><a href="#">Streamer Name</a></h4>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="preview">
+              <a href="#" title=""><img src="images\wp9124132-4k-pc-car-neon-wallpapers.jpg" alt="#"></a>
+              <div class="time">00.00</div>
+            </div>
+            <div class="data">
+              <h3><a href="#">Lorem Ipsum Dolor Sit amet</a></h3>
+              <!-- <h3><a href="#">Streamer Name</a></h3> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Video End-->
+      <!--Content End -->
+    </div>
+
+</body>
+
+</html>
